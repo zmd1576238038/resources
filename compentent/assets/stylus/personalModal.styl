@@ -1,0 +1,45 @@
+/*
+ * @Description: 弹窗样式
+ * @Author: cb
+ * @Date: 2018-6-1
+ * @Last Modified by: cb
+ * @Last Modified time: 2018-06-05 20:01:26
+ */
+
+
+.modifyModal
+  .el-dialog
+    width 400px
+  // height auto
+  .el-dialog__header
+    font-size 18px
+    color #333
+    border-bottom $border
+  .el-dialog__headerbtn .el-dialog__close
+    display none
+  .el-form-item,.el-form-item__content,.el-input,.el-input--small .el-input__inner
+    width 300px
+    height 40px
+    border-radius 0px
+    margin 0 auto
+    margin-bottom 20px
+
+.modal-foot-btn
+  flex-row-center()
+  margin-top: 28px;
+  .submit-btn
+    width 170px
+    height 40px
+    background  #2382EA
+    border-radius 0px
+  .cancel-btn
+    border 0px
+  .cancel-btn:hover
+    background #fff
+.code-item
+  position relative
+.code-btn
+    position absolute
+    right 17px
+    color #2382EA
+    cursor pointer

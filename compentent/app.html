@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html {{ HTML_ATTRS }}>
+<head>
+  {{ HEAD }}
+
+  <!-- 百度统计代码 -->
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?c36aaac27e9aba4cac9235e87a2ceda4";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1273663451'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D1273663451%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+
+  <!-- <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?15398d36b37950dc2bfb56dd6ea7e141";
+      var s = document.getElementsByTagName("head")[0];
+      s.appendChild(hm)
+    })();
+    var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1273663451'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D1273663451%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+  </script> -->
+
+  <!-- 友盟代码 -->
+  <script type="text/javascript">
+  var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1273663451'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D1273663451%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+
+</head>
+
+<body {{ BODY_ATTRS }}>
+{{ APP }}
+<!-- 百度推送代码 -->
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      if(location.pathname.indexOf('/personal')<0) {
+        s.parentNode.insertBefore(bp, s);
+      }
+    })();
+  </script>
+</body>
+</html>
